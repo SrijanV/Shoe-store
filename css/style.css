@@ -1,0 +1,72 @@
+ *{
+    box-sizing: border-box!important;
+    transition: ease all 0.5s;
+}
+.nav-item{
+	padding-left: 30px;
+}
+.coll{
+	right: 0%;
+}
+.cont{
+	width: 100%;
+    float: left;
+    background-color: #fff;
+    height: auto;
+    position: relative;
+    border:1px solid black;
+}
+.shoes-img {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+.seemore {
+    width: 18%;
+    height: 50px;
+    color: #fff;
+    background-color: #ff4e5b;
+    color: #fff;
+    font-size: 16pt;
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+.racing{
+	height: 600px;
+	background-color: #D8D8D8;
+	padding-top: 55px;
+
+}
+.red{
+	color: #ed2540;
+}
+.redi{
+	background-color: #ed2540;
+	margin-top: 30px;
+	padding-top: 50px;
+	
+}
+.forom {
+    background-color: #14120e;
+    height: auto;
+    padding: 20px;
+    opacity: 0.80;
+}
+.form-group {
+    margin-bottom: 2rem;
+    width:100%;
+}
+@media only screen and (max-width: 600px) {
+  .coll{
+  	font-size: 10px;
+
+  	background-color: #1D2951 ;
+  }
+  .nav-item{
+  	padding-left: 10px;
+  }
+
+}
